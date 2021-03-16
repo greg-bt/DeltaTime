@@ -34,7 +34,7 @@ while (true) {
     // -  Do stuff here  - //
 }
 ```
-This delta time can then be used in kinematic equations to calculate changes in velocity, position, etc. However another option would be to use substepping. This is where we carry out each physic tick as a single transaction.
+This delta time can then be used in kinematic equations to calculate changes in velocity, position, etc. However another option is to use substepping. This is where we carry out each physic tick as a single transaction.
 In c++ this would look something like this:
 ```c++
 // Main loop
@@ -58,7 +58,7 @@ Now each tick is occuring independently and in sequence.
 In the demo below, simple projectile motion is being simulated with a different tickrate and framerate.
 ![video](demo.gif)
 
-
+[Download Demo](https://github.com/greg-bt/DeltaTime/releases/tag/1.0)
 
 
     
