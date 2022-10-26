@@ -22,7 +22,7 @@ Using c++ we can make a function like this to keep track of delta time:
 // Calculate delta time
 int deltaTime(int previous, int offset) {
     int Δt = (clock() - previous);  // Δt = Current time - time of last frame
-    returnt;             
+    return Δt;             
 }
 
 // Main loop
